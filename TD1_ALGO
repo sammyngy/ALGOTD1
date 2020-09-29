@@ -1,11 +1,12 @@
-def print_comb() :
-    numbersList = []
-    for firstNumber in range(0,8):
-        for secondNumber in range(firstNumber + 1,9):
-            for lastNumber in range(secondNumber + 1,10):
-                numbersList.append('' + str(firstNumber) + str(secondNumber) + str(lastNumber))
-    
-    for number in numbersList:
-        print(number)
+def revers_list() :
+    listReverse = []
+    listToReverse = [1, 2, 3, 4, 5]
 
-print_comb()
+    print(listToReverse)
+    for number in reversed(listToReverse):
+        listReverse.append(number)
+    print(listReverse)
+revers_list()
+
+
+    
