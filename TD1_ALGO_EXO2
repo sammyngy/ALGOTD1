@@ -1,0 +1,12 @@
+def reverse_list() :
+    listReverse = []
+    listToReverse = [1, 2, 3, 4, 5]
+
+    print(listToReverse)
+    for number in reversed(listToReverse):
+        listReverse.append(number)
+    print(listReverse)
+reverse_list()
+
+
+    
