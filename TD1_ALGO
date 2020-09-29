@@ -1,0 +1,14 @@
+def print_comb() -> None:
+    pass
+    for i in range(1000):
+        numberToCheck = f'{i:03}'   
+        i_list = []
+        for char in numberToCheck:
+            i_list.append(char)
+            
+        print(i_list)
+print_comb()
+
+
+
+
