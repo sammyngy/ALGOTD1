@@ -1,8 +1,11 @@
-def print_comb() -> None:
-    pass
-    for i in range(1000):
-        numberToCheck = f'{i:03}'   
-        numbersList = []
-        print(numbersList)
+def print_comb() :
+    numbersList = []
+    for firstNumber in range(0,8):
+        for secondNumber in range(firstNumber + 1,9):
+            for lastNumber in range(secondNumber + 1,10):
+                numbersList.append('' + str(firstNumber) + str(secondNumber) + str(lastNumber))
+    
+    for number in numbersList:
+        print(number)
 
 print_comb()
